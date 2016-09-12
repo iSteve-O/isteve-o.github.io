@@ -1,0 +1,17 @@
+Package: com.sull.insanelyiappios9
+Priority: extra
+Section: iApps
+Maintainer: insanelyi <noreply@insanelyi.com>
+Architecture: iphoneos-arm
+Version: 3.3.9-4a
+Replaces: com.sull.insanelyiapp, com.sull.insanelyiappios6, com.chris.insanelyi, com.sull.insanelyiappios7, com.sull.insanelyiappios8
+Depends: firmware (>= 8.0), firmware (<< 10.0)
+Conflicts: com.sull.insanelyiapp, com.sull.insanelyiappios6, com.chris.insanelyi, com.sull.insanelyiappios7, com.sull.insanelyiappios8
+Size: 3660420
+Description: Forum App with iOS 8/9 Support!
+Name: insanelyi App - iOS9
+Author: Chris
+Sponsor: insanelyi <http://insanelyi.com>
+Depiction: http://repo.insanelyi.com/depiction.php?package=insanelyiappios9
+Tag: purpose::chris
+Icon: file:///Applications/insanelyi.app/AppIcon-Cydia.png

@@ -1,0 +1,56 @@
+Package: com.chris.mattetermipad
+Priority: extra
+Section: iSystem
+Maintainer: insanelyi <noreply@insanelyi.com>
+Architecture: iphoneos-arm
+Version: 1.0beta1.4.1
+Depends: coreutils, firmware (>= 8.0)
+Name: MatteTerm for iPad
+Description: The best mobile terminal emulator ever!
+ Initial code base and project from White Terminal by @CodeHex. Reworked and updated into MatteTerm by me, @ChrisOSX, the creator of the insanelyi forum application.
+ 
+ -Brought to you exclusively by insanelyi-
+ 
+ 
+ Features include...
+ 
+ -MatteMode Interface & Keyboard-
+  --Choose between light or dark mode, or mix 'em up!
+ 
+ -4 Terminal Windows-
+  --Do up to 4 tasks at once, even as different users!
+ 
+ -Configurable Shortcuts Menu-
+  --Automate common commands!
+ 
+ -Optional Mail & Default-Only Keyboards-
+  --Also supports 3rd party keyboards & KB dismissal for a larger view!
+ 
+ -Large Selection of Cool Themes-
+  --Don't like our themes? Use in-app settings to create your own custom theme!
+ 
+ -Large Selection of Great Fonts-
+ --You are no longer stuck with a font from the 1970's!
+ 
+ -Useful Toolbar-
+ --Features arrows, CTRL key, commonly used CLI keys & more!
+ 
+ -Paste Functionality-
+ --Copy commands from anywhere & paste them right into MatteTerm!
+ 
+ -Intuitive Gestures-
+ --Several options to toggle using simple gestures!
+ 
+ -Supports Rotation On All Devices-
+ --Hides the status & nav bars on smaller devices in landscape for better visibility!
+ 
+ 
+ ...Stay tuned for more!
+ 
+ 
+ For help & screenshots, tap "more information" below, or visit www.insanelyi.com
+Homepage: http://insanelyi.com/topic/23496-matte-terminal/
+Author: @ChrisOSX
+Sponsor: insanelyi <http://insanelyi.com>
+Tag: purpose::chris
+Icon: file:///Applications/MatteTerm.app/Cydia_Icon.png

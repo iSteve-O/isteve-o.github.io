@@ -1,0 +1,16 @@
+Package: com.sull.repoicons
+Essential: yes
+Priority: required
+Section: iSystem
+Installed-Size: 594
+Maintainer: insanelyi <noreply@insanelyi.com>
+Architecture: iphoneos-arm
+Version: 1.5-22a
+Replaces: com.sull.sectionicons, com.icausefx.repoicon, com.ig33kstas.repoprep, com.iosrepo.iosrepoicon, com.ihacksrepo.ihrrepoicons, com.podulo.reposetup, com.hackyouriphone.iconrepo, com.icr8zy.icr8zyrepo, com.ihacksrepo.reposetupfiles, com.hackulo.us.sourcegui, repo.biteyourapple.net.byarepoicons, com.sull.insanelyisecurity, com.ithemes.ithemes, com.bbyscroopy.repoicon
+Conflicts: com.sull.sectionicons, com.sull.insanelyisecurity
+Size: 157698
+Description: Required Repository Setup Files.
+Name: insanelyi Setup
+Depiction: http://repo.insanelyi.com/depiction.php?package=repoicons
+Author: Sull
+Sponsor: insanelyi <http://insanelyi.com>
