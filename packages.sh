@@ -1,5 +1,5 @@
 #!/bin/bash
-dpkg-deb -b -Zgzip /projects/insanelyi App - iOS9 debs
-dpkg-deb -b -Zgzip /projects/insanelyi Setup debs
-dpkg-deb -b -Zgzip /projects/MatteTerm debs
-dpkg-deb -b -Zgzip /projects/MatteTerm for iPad debs
+dpkg-deb -bZgzip /projects/insanelyiApp-iOS9 debs
+dpkg-deb -bZgzip /projects/insanelyiSetup debs
+dpkg-deb -bZgzip /projects/MatteTerm debs
+dpkg-deb -bZgzip /projects/MatteTermforiPad debs
