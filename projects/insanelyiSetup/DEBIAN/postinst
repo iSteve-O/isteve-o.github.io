@@ -1,8 +1,0 @@
-#!/bin/sh
-echo
-echo "**insanelyi GUI-GPG-SEC**"
-echo
-echo "Thanks for adding insanelyi Repository"
-echo "Please report any bugs at insanelyi.com"
-echo 
-exit 0
