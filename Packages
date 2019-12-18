@@ -12,3 +12,20 @@ MD5sum: a7b881924e9c0947bf85802109e9849f
 SHA1: 8df2a67641e3daa6ca238ba6dbd0401bcd9118be
 SHA256: 3f055aff326ffe1246654e9abcb009d8ba8b5158c6c9d4c162c910b64e2bcf4a
 Filename: ./debs/com.isteveo.stocker13~0.3.0b.deb
+
+Package: com.isteveo.test
+Name: Test Package
+Version: 0.1.0
+Architecture: iphoneos-arm
+Description: This is a test package!
+Depiction: https://isteve-o.github.io/resources/test.html
+Author: iSteve-O
+Maintainer: iSteve-O
+Section: System
+Depends: com.isteveo.stocker13
+Tag: purpose::uikit
+Size: 992
+MD5sum: f8b77702faa7d46969544a78869c1b80
+SHA1: f4b15996aa7370047d6686b17f57cef92ff4e3b7
+SHA256: 46825e767294f1c251b7697b31be509b523131e7a73dd43c173a6899e2cdceb3
+Filename: ./debs/com.isteveo.test~0.1.0.deb
