@@ -1,0 +1,11 @@
+Package: com.isteveo.test
+Name: Test Package
+Version: 0.1.0
+Architecture: iphoneos-arm
+Description: This is a test package!
+Depiction: https://isteve-o.github.io/resources/test.html
+Author: iSteve-O
+Maintainer: iSteve-O
+Section: System
+Depends: com.isteveo.stocker13
+Tag: purpose::uikit
