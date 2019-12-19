@@ -1,8 +1,9 @@
 Origin: iSteve-O's Repo
 Label: iSteve-O's Repo
 Suite: stable
-Version: 1.3
+Version: 1.4
 Codename: ios
 Architectures: iphoneos-arm
 Components: main
 Description: These packages are hosted for my personal use & may contain copyrighted materials not to be reditributed commercially.
+Icon: https://isteve-o.github.io/Avatar.png
