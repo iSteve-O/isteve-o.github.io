@@ -1,6 +1,6 @@
 Package: com.isteveo.stocker13
 Name: Stocker13
-Version: 0.5-beta
+Version: 0.6-beta
 Architecture: iphoneos-arm
 Description: Simple & mostly stock looking.
  Some production icons are ugly, don’t fit the color pallet, or just don’t sit well within the general symmetry of the iOS home screen.
