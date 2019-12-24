@@ -1,8 +1,9 @@
 Origin: iSteve-O's Repo
 Label: iSteve-O's Repo
 Suite: stable
-Version: 1.5
+Version: 1.6
 Codename: ios
 Architectures: iphoneos-arm
 Components: main
-Description: <p align="center">These packages are hosted for my personal use & may contain copyrighted materials not to be reditributed commercially.</p>
+Description: These packages are hosted for my personal use & may contain copyrighted materials not to be reditributed commercially.
+
