@@ -1,20 +1,35 @@
 #!/bin/bash
-mv /System/Library/PreferenceBundles/ScheduleSettings.bundle /System/Library/PreferenceBundles/tmp/Sched.bak
-mv /System/Library/PreferenceBundles/AccountSettingsUI.bundle/en.lproj /System/Library/PreferenceBundles/tmp/Acct.bak
-mv /System/Library/PreferenceBundles/tmp/Sched /System/Library/PreferenceBundles/ScheduleSettings.bundle
-mv /System/Library/PreferenceBundles/tmp/Acct /System/Library/PreferenceBundles/AccountSettingsUI.bundle/en.lproj
+mv /System/Library/PreferenceBundles/ScheduleSettings.bundle /System/Library/PreferenceBundles/PM64/Sched.bak
+mv /System/Library/PreferenceBundles/AccountSettingsUI.bundle /System/Library/PreferenceBundles/PM64/Acct.bak
+mv /System/Library/PreferenceBundles/PM64/Sched /System/Library/PreferenceBundles/ScheduleSettings.bundle
+mv /System/Library/PreferenceBundles/PM64/Acct /System/Library/PreferenceBundles/AccountSettingsUI.bundle
+cp -rf /System/Library/PreferenceBundles/PM64/Sched.bak/Info.plist /System/Library/PreferenceBundles/ScheduleSettings.bundle/Info.plist
+cp -rf /System/Library/PreferenceBundles/PM64/Acct.bak/AccountSettingsUI /System/Library/PreferenceBundles/AccountSettingsUI.bundle/AccountSettingsUI
+cp -rf /System/Library/PreferenceBundles/PM64/Acct.bak/Assets.car /System/Library/PreferenceBundles/AccountSettingsUI.bundle/Assets.car
+cp -rf /System/Library/PreferenceBundles/PM64/Acct.bak/Info.plist /System/Library/PreferenceBundles/AccountSettingsUI.bundle/Info.plist
+cp -rf /System/Library/PreferenceBundles/PM64/Sched.bak/*.png /System/Library/PreferenceBundles/ScheduleSettings.bundle/
+killall -9 Preferences
 
 cat - <<EOS
 ------------------------------------------
         Installing PushMod64
 ------------------------------------------
 
+Cydia may display an error on iOS 13...
+This error is safe to ignore & may not occur for those on iOS 11-12 because they have an extra file that I can’t figure out how to manage any other way. -Sorry!
+
 Thanks for using PushMod64! -iSteve-O
 
 Twitter: @iSteve_O
 
-Installing New Push Settings...
+Installing New Fetch Settings...
 
-Complete. Enjoy!
+Killing Settings app to begin anew!
+
+Complete...
+
+Find your new choices by going into Settings, then the Accounts & Passwords section, then set your new fetch interval!
+
+Enjoy!
 
 EOS

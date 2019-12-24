@@ -1,8 +1,10 @@
 #!/bin/bash
-mv /System/Library/PreferenceBundles/ScheduleSettings.bundle /System/Library/PreferenceBundles/tmp/Sched
-mv /System/Library/PreferenceBundles/AccountSettingsUI.bundle/en.lproj /System/Library/PreferenceBundles/tmp/Acct
-mv /System/Library/PreferenceBundles/tmp/Sched.bak /System/Library/PreferenceBundles/ScheduleSettings.bundle
-mv /System/Library/PreferenceBundles/tmp/Acct.bak /System/Library/PreferenceBundles/AccountSettingsUI.bundle/en.lproj
+mv /System/Library/PreferenceBundles/ScheduleSettings.bundle /System/Library/PreferenceBundles/PM64/Sched
+mv /System/Library/PreferenceBundles/AccountSettingsUI.bundle /System/Library/PreferenceBundles/PM64/Acct
+mv /System/Library/PreferenceBundles/PM64/Sched.bak /System/Library/PreferenceBundles/ScheduleSettings.bundle
+mv /System/Library/PreferenceBundles/PM64/Acct.bak /System/Library/PreferenceBundles/AccountSettingsUI.bundle
+rm -rf /System/Library/PreferenceBundles/PM64
+killall -9 Preferences
 
 cat - <<EOS
 ------------------------------------------
@@ -13,9 +15,14 @@ Thanks for using PushMod64! -iSteve-O
 
 Twitter: @iSteve_O
 
-Removing Modified Push Settings...
-Restoring Original Push Settings...
+Removing Modified Fetch Settings...
+
+Restoring Original Fetch Settings...
 
 Complete!
+
+Your stock fetch settings have been restored. Please remember to set your fetch interval back to something stock now or it will revert to manual or automatic fetching and you may not get emails when expected.
+
+Thanks again for using PushMod64!
 
 EOS
