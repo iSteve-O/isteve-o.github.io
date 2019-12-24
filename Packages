@@ -52,7 +52,7 @@ Description: 3, 5, & 10m email fetch intervals!
  I have attempted to localize this tweak for all languages supported by iOS. If I made any mistakes in your language, please tell me what should be fixed, especially my Arabic & Swedish friends. I did my best, and I did it manually.  
  I am not responsible for any issues with iOS versions under 13, but this package does fully backup upon install & fully replace the stock files upon removal, so it should be fine.
  If you have any issues just remove it.
-Depiction: https://isteve-o.github.io/resources/test.html
+Depiction: https://isteve-o.github.io/resources/PushMod64.html
 Tag: purpose::daemon
 Replaces: me.okd.pushmod
 Icon: file:///Applications/Setup.app/cloud_config@2x.png
