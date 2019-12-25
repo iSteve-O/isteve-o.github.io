@@ -1,6 +1,6 @@
 Package: com.isteveo.stocker13
 Name: Stocker13
-Version: 0.6-beta
+Version: 0.7-beta
 Architecture: iphoneos-arm
 Description: Simple & mostly stock looking.
  Some production icons are ugly, don’t fit the color pallet, or just don’t sit well within the general symmetry of the iOS home screen.
@@ -13,11 +13,11 @@ Maintainer: iSteve-O <isteveo.ipa@gmail.com>
 Section: Themes
 Depends: com.anemonetheming.anemone | com.spark.snowboard
 Tag: purpose::uikit
-Size: 164416
-MD5sum: 3993a0b884629ab511537dbd4ffe74ac
-SHA1: 50459458684f90c0f641b55a1ee5556f22afdc33
-SHA256: 352d83a1daf750fbac3b285ae55b2b5c2e1298d21303c3abe83771f70e779a09
-Filename: ./debs/com.isteveo.stocker13~0.6-b.deb
+Size: 153334
+MD5sum: dd88fd05a5b5d7d7731420b1673e92ad
+SHA1: 42953efd7820e5f30ef02da6748283dba469e6c1
+SHA256: 93333f976b86798f6b0482c5ade97ddfc31265e0d12932aa05fcd0f6cb5e1699
+Filename: ./debs/com.isteveo.stocker13~0.7-b.deb
 
 Package: com.isteveo.test
 Name: Test Package
