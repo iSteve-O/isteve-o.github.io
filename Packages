@@ -1,6 +1,6 @@
 Package: com.isteveo.stocker13
 Name: Stocker13
-Version: 0.7-beta
+Version: 0.8-beta
 Architecture: iphoneos-arm
 Description: Simple & mostly stock looking.
  Some production icons are ugly, don’t fit the color pallet, or just don’t sit well within the general symmetry of the iOS home screen.
@@ -10,14 +10,15 @@ Description: Simple & mostly stock looking.
 Depiction: https://isteve-o.github.io/resources/Stocker13.html
 Author: iSteve-O <isteveo.ipa@gmail.com>
 Maintainer: iSteve-O <isteveo.ipa@gmail.com>
-Section: Themes
-Depends: com.anemonetheming.anemone | com.spark.snowboard
+Section: Themes (iS-O)
 Tag: purpose::uikit
-Size: 153334
-MD5sum: dd88fd05a5b5d7d7731420b1673e92ad
-SHA1: 42953efd7820e5f30ef02da6748283dba469e6c1
-SHA256: 93333f976b86798f6b0482c5ade97ddfc31265e0d12932aa05fcd0f6cb5e1699
-Filename: ./debs/com.isteveo.stocker13~0.7-b.deb
+Depends: com.anemonetheming.anemone | com.spark.snowboard
+Icon: file:///Applications/Cydia.app/Sections/Themes.png
+Size: 233174
+MD5sum: c7577404caae19b5cc139e6f4ec56e46
+SHA1: 0663f7f04d405816bf99b8508276dfa632ff00ab
+SHA256: 719b26dfa567ab192b293ba578caed44424b4f94dac84871465cc34536ad2960
+Filename: ./debs/com.isteveo.stocker13~0.8-b.deb
 
 Package: com.isteveo.test
 Name: Test Package
